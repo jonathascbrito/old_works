@@ -1,0 +1,573 @@
+html, body {
+    font-family         : 'source_sans_pro_regular';
+    font-size           : 12px;
+    line-height         : 12px;
+
+    width               : 100%;
+    height              : auto;
+
+    background-image    : url('../img/bg.png');
+    background-repeat   : repeat;
+    background-color    : #ffffff;
+}
+
+div.left
+{
+    float                   : left;
+}
+
+div.right
+{
+    float                   : right;
+}
+
+div.center
+{
+    width                   : 1000px;
+    margin                  : auto;
+}
+
+div.line
+{
+    border-top              : #f2f2f2 1px solid;
+    margin                  : 20px 0;
+}
+
+div.clearfix
+{
+    clear                   : both;
+}
+
+div#main
+{
+    margin                  : 20px 0;
+}
+
+div#main div.left
+{
+    width                   : 240px;
+}
+
+div#main div#logo-mvtl
+{
+    margin                  : 20px 0 50px 0;
+}
+
+div#main div.left div#user
+{
+    padding                 : 0 0 20px 0;
+    border-bottom           : 2px solid #0099cc;
+}
+
+div#main div.left div#user div.info a
+{
+    color                   : #333333;
+    font-weight             : bold;
+    text-decoration         : none;
+}
+
+div#main div.left div#user div.info div.roles
+{
+    color                   : #939699;
+    font-size               : 11px;
+    line-height             : 11px;
+}
+
+div#main div.left menu
+{
+    margin                  : 20px 0 0 0;
+    -webkit-padding-start   : 0px;
+       -moz-padding-start   : 0px;
+}
+
+div#main div.left menu ul,
+div#main div.left menu li
+{
+    margin                  : 0;
+    padding                 : 0;
+    list-style              : none;
+
+    line-height             : 12px;
+}
+
+div#main div.left menu a
+{
+    color                   : #999999;
+    display                 : block;
+    padding                 : 10px 0 10px 50px;
+    border-top              : #DEDEDE 1px solid;
+
+    text-decoration         : none;
+    font-weight             : normal;
+
+    background-repeat       : no-repeat;
+    background-position     : 32px -2px;
+}
+
+div#main div.left menu a.group
+{
+    font-weight             : bold;
+    padding-left            : 30px;
+    background-position     : 12px -2px;
+}
+
+div#main div.left menu a:hover,
+div#main div.left menu a.active
+{
+    color                   : #0099cc;
+    background-color        : #fafafa;
+    background-position     : 32px -37px;
+}
+
+div#main div.left menu a.group:hover,
+div#main div.left menu a.group.active
+{
+    color                   : #0099cc;
+    background-color        : #fafafa;
+    background-position     : 12px -37px;
+}
+
+div#main div.left menu a.dashboard
+{
+    background-image        : url( '../img/icon-menu-dashboard.png' );
+}
+
+div#main div.left menu a.comunications
+{
+    background-image        : url( '../img/icon-menu-comunications.png' );
+}
+
+div#main div.left menu a.financial
+{
+    background-image        : url( '../img/icon-menu-financial.png' );
+}
+
+div#main div.left menu a.registrations
+{
+    background-image        : url( '../img/icon-menu-registrations.png' );
+}
+
+div#main div.left menu a.quality
+{
+    background-image        : url( '../img/icon-menu-quality.png' );
+}
+
+div#main div.left menu a.rh
+{
+    background-image        : url( '../img/icon-menu-rh.png' );
+}
+
+div#main div.left menu a.services
+{
+    background-image        : url( '../img/icon-menu-services.png' );
+}
+
+div#main div.left menu a.billing
+{
+    background-image        : url( '../img/icon-menu-billing.png' );
+}
+
+div#main div.left menu a.administrative
+{
+    background-image        : url( '../img/icon-menu-administrative.png' );
+}
+
+div#main div.left menu a.no-border
+{
+    border-top              : 0;
+}
+
+div#main div.right
+{
+    width                   : 730px;
+    background              : #ffffff;
+
+    -webkit-border-radius   : 5px;
+       -moz-border-radius   : 5px;
+            border-radius   : 5px;
+
+    -moz-box-shadow         : 0 0 6px #bababa;
+    -webkit-box-shadow      : 0 0 6px #bababa;
+    box-shadow              : 0 0 6px #bababa;
+
+    min-height              : 500px;
+}
+
+div#main div.right h2
+{
+    display                 : block;
+    margin                  : 0;
+    padding                 : 20px 20px;
+    background              : #f2f2f2;
+    border-bottom           : #0099cc 2px solid;
+
+    font-family             : 'source_sans_pro_bold';
+    font-size               : 22px;
+    line-height             : 22px;
+    font-weight             : normal;
+
+    text-rendering          : auto;
+
+    -webkit-box-shadow      : 0 0 4px #bababa;
+    -moz-box-shadow         : 0 0 4px #bababa;
+    box-shadow              : 0 0 4px #bababa;
+}
+
+div#main div.right div#breadcrumb
+{
+    height: 14px;
+    padding: 20px;
+    border-bottom: 1px dotted #EBEBEB;
+}
+
+div#main div.right div#breadcrumb a
+{
+    color                   : #999;
+    text-decoration         : none;
+    float                   : left;
+    display                 : block;
+    padding                 : 2px 0 0 0;
+}
+
+div#main div.right div#breadcrumb a:hover
+{
+    color                   : #0099cc;
+}
+
+div#main div.right div#breadcrumb a.home
+{
+    padding                 : 2px 0 0 18px;
+    background-image        : url('../img/icon-breadcrumb-home.png');
+    background-repeat       : no-repeat;
+    background-position     : left top;
+}
+
+div#main div.right div#breadcrumb a.home:hover
+{
+    background-position     : left bottom;
+}
+
+div#main div.right div#breadcrumb .arrow {
+    width                   : 3px;
+    height                  : 14px;
+    float                   : left;
+    margin                  : 0 10px;
+    background-image        : url('../img/icon-breadcrumb-arrow.png');
+    background-repeat       : no-repeat;
+    background-position     : center;
+}
+
+div#main div.right div#breadcrumb #links {
+    float               : right;
+    height              : 12px;
+}
+
+div#main div.right div#breadcrumb #links a {
+    float               : left;
+    display             : block;
+
+    color               : #999999;
+    text-decoration     : none;
+
+    padding             : 2px 0 0 18px;
+    background-repeat   : no-repeat;
+    background-position : left top;
+}
+
+div#main div.right div#breadcrumb #links a:hover {
+    color               : #0099cc;
+    background-position : left bottom;
+}
+
+div#main div.right div#breadcrumb a.help {
+    background-image    : url('../img/icon-links-help.png');
+}
+
+div#main div.right div#breadcrumb a.settings {
+    background-image    : url('../img/icon-links-settings.png');
+}
+
+div#main div.right div#breadcrumb .sep {
+    float               : left;
+    height              : 14px;
+    margin              : 0 10px;
+}
+
+div#main div.right .description
+{
+    margin                  : 20px 20px 0 20px;
+    font-size               : 14px;
+    line-height             : 16px;
+    text-align              : justify;
+}
+
+div#main div.right .content
+{
+    padding                 : 20px;
+}
+
+fieldset
+{
+    margin                  : 0 0 10px 0;
+    border                  : 1px solid #f2f2f2;
+    -webkit-border-radius   : 2px;
+       -moz-border-radius   : 2px;
+            border-radius   : 2px;
+}
+
+legend
+{
+    font-family             : 'source_sans_pro_bold';
+    font-size               : 18px;
+    line-height             : 20px;
+    border                  : 0;
+    width                   : auto;
+    margin                  : 0 10px 0 10px;
+    padding                 : 10px;
+}
+
+option:disabled
+{
+    color                   : #bababa;
+}
+
+.error-message .tooltip-inner
+{
+    background              : #F2DEDE;
+}
+
+.tooltip.right.error-message .tooltip-arrow
+{
+    border-right-color      : #F2DEDE;
+}
+
+.error-message-text
+{
+    color                   : #B94A48;
+}
+
+.help-block, .help-inline
+{
+    color                   : #cccccc;
+    margin-top              : 10px;
+    padding-right           : 10px;
+}
+
+.table thead th a.asc
+{
+    display                 : block;
+    padding-right           : 18px;
+    background-image        : url('../img/icon-sort-asc.png');
+    background-position     : center right;
+    background-repeat       : no-repeat;
+}
+
+.table thead th a.desc
+{
+    display                 : block;
+    padding-right           : 18px;
+    background-image        : url('../img/icon-sort-desc.png');
+    background-position     : center right;
+    background-repeat       : no-repeat;
+}
+
+.table thead tr th.align-center,
+.table tbody tr td.align-center
+{
+    text-align              : center;
+}
+
+.table thead tr th.align-left,
+.table tbody tr td.align-left
+{
+    text-align              : left;
+}
+
+.table thead tr th.align-right,
+.table tbody tr td.align-right
+{
+    text-align              : right;
+}
+
+.table thead tr th.no-bold,
+.table tbody tr td.no-bold
+{
+    font-weight             : normal;
+}
+
+.pagination .info
+{
+    float                   : left;
+    line-height             : 26px;
+    text-align              : left;
+    background-color        : white;
+}
+
+.pagination ul > li.active,
+.pagination ul > li.disabled
+{
+    float                   : left;
+    padding                 : 0 14px;
+    line-height             : 38px;
+    text-decoration         : none;
+    text-align              : center;
+    background-color        : white;
+    border                  : 1px solid #DDD;
+    border-left-width       : 0;
+}
+
+.pagination ul > li a,
+.pagination ul > li.active,
+.pagination ul > li.disabled
+{
+    line-height             : 26px;
+    padding                 : 0 8px;
+}
+
+.pagination ul > li.active:last-child,
+.pagination ul > li.disabled:last-child
+{
+    -webkit-border-radius   : 0 3px 3px 0;
+       -moz-border-radius   : 0 3px 3px 0;
+            border-radius   : 0 3px 3px 0;
+}
+
+.pagination ul > li.active:first-child,
+.pagination ul > li.disabled:first-child
+{
+    border-left-width       : 1px;
+    -webkit-border-radius   : 3px 0 0 3px;
+       -moz-border-radius   : 3px 0 0 3px;
+            border-radius   : 3px 0 0 3px;
+}
+
+.text
+{
+    padding-top             : 5px;
+    font-size               : 14px;
+    font-weight             : normal;
+    line-height             : 20px;
+}
+
+.no-margin
+{
+    margin                  : 0px;
+}
+
+.no-bold
+{
+    font-weight             : normal;
+}
+
+.no-border
+{
+    border                  : 0;
+}
+
+.align-center
+{
+    text-align              : center;
+}
+
+.align-left
+{
+    text-align              : left;
+}
+
+.align-right
+{
+    text-align              : right;
+}
+
+.control-dynamic
+{
+    margin-bottom           : 5px;
+}
+
+form fieldset .inline-radio label
+{
+    vertical-align          : middle;
+    margin                  : 8px 0 0 5px;
+    display                 : inline-block;
+}
+
+form fieldset .inline-radio .sep
+{
+    margin                  : 0 10px;
+}
+
+.filter
+{
+    display                 : inline-block;
+    padding                 : 0px 2px;
+    background              : #ffff96;
+
+    -webkit-border-radius   : 5px;
+       -moz-border-radius   : 5px;
+            border-radius   : 5px;
+}
+
+.sql-dump
+{
+    width                   : 700px;
+    padding                 : 20px;
+    position                : fixed;
+    bottom                  : 0px;
+    background              : white;
+    border-top              : 1px solid #cccccc;
+    z-index                 : 999;
+}
+
+.sql-dump .scroll
+{
+    overflow                : auto;
+    height                  : 100px;
+}
+
+.sql-dump table
+{
+    font-size               : 10px;
+}
+
+.sql-dump table tr
+{
+    border-bottom           : 1px solid #cccccc;
+}
+
+.sql-dump table tr td
+{
+    padding                 : 5px;
+}
+
+.sql-dump-placeholder
+{
+    height                  : 140px;
+}
+
+#chart_div table
+{
+    border-collapse: inherit;
+}
+
+div#main div.right div#breadcrumb #links .dropdown
+{
+    float: right;
+}
+
+div#main div.right div#breadcrumb #links .dropdown .dropdown-menu a{
+    float: none;
+    display: block;
+    padding: 3px 20px;
+}
+
+div#main div.right div#breadcrumb #links .dropdown .dropdown-menu a:hover{
+    color: white;
+}
+
+/* Ticket */
+
+.textarea-ticket{
+
+    width: 328px;
+
+}

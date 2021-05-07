@@ -1,0 +1,56 @@
+#header #menu a.modules,
+.dropdown.modules .inner a{
+    position: relative;
+}
+
+#messages-count
+{
+    background: #990000;
+    color: #fff;
+    
+    display: none;
+    padding: 0 2px;
+    font-size: 10px;
+    font-family: 'regular';
+    border-radius: 2px;
+    
+    float: right;
+}
+
+#notifications-count
+{
+    background: #990000;
+    color: #fff;
+    
+    display: none;
+    padding: 0 2px;
+    font-size: 10px;
+    font-family: 'regular';
+    border-radius: 2px;
+    
+    float: right;
+}
+
+#modules-notifications-count
+{
+    background: #990000;
+    color: #fff;
+    position: absolute;
+    display: none;
+    padding: 0 2px;
+    font-size: 10px;
+    font-family: 'regular';
+    border-radius: 2px;
+    top: -2px;
+    right: -8px;
+}
+
+#messages-count.high,
+#messages-count.normal,
+#notifications-count.high,
+#notifications-count.normal,
+#modules-notifications-count.high,
+#modules-notifications-count.normal
+{
+    display: inline-block;
+}

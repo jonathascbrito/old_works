@@ -1,0 +1,88 @@
+.attachment {
+    width: 162px;
+    margin: 5px 0 5px 130px;
+
+    text-align: right;
+}
+
+.attachment .trigger {
+    height: 22px;
+    position: absolute;
+}
+
+.attachment a.attach {
+    display: block;
+
+    padding: 5px 5px 5px 22px;
+
+    font-family: 'regular';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #999999;
+    text-align: left;
+    text-decoration: none;
+
+    background-image: url('../img/app-attachment.png');
+    background-position: 5px -1px;
+    background-repeat: no-repeat;
+
+    background-color: #fdfdfd;
+}
+
+.attachment a.attach.hover {
+    color: #0099cc;
+    background-color: #fcfcfc;
+    background-position: 5px -23px;
+}
+
+.attachment .files {
+
+}
+
+.attachment .files .file {
+    margin: 5px;
+
+    font-family: 'regular';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+
+    text-align: left;
+    color: #999999;
+
+    padding: 0 0 0 14px;
+
+    background-image: url('../img/app-attachment-file.png');
+    background-position: 0px 1px;
+    background-repeat: no-repeat;
+}
+
+.attachment .files .file .name {
+    font-family: 'bold';
+}
+
+.attachment .files .file .size {
+    color: #cccccc;
+    font-size: 10px;
+}
+
+.attachment .files .file .progress {
+    height: 2px;
+    background: #efefef;
+
+    margin: 2px 0 0 0;
+}
+
+.attachment .files .file .bar {
+    width: 0%;
+    height: 2px;
+    background: #0099cc;
+}
+
+.attachment .files .file.completed .progress {
+    display: none;
+}
+
+/* @todo: file type icons */

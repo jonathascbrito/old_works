@@ -1,0 +1,44 @@
+.message {
+    padding: 9px 14px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+
+    margin: 5px 0 20px 0;
+
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+
+    border: 1px solid #bce8f1;
+    background-color: #d9edf7;
+
+    color: #3A8ABF;
+}
+
+.message-success {
+    border: 1px solid #d6e9c6;
+    background-color: #dff0d8;
+
+    color: #468847;
+}
+
+.message-error {
+    border: 1px solid #eed3d7;
+    background-color: #f2dede;
+
+    color: #b94a48;
+}
+
+.message a.close {
+    float: right;
+    display: block;
+
+    cursor: pointer;
+    margin: 0 0 0 10px;
+
+    width: 10px;
+    height: 10px;
+
+    background-image: url(../img/app-messages-close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

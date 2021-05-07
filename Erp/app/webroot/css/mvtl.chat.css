@@ -1,0 +1,106 @@
+#chat{
+	width: 990px;
+	margin: auto;
+	text-align: left;
+    z-index: 99999;
+}
+
+#chat a.chat-list-toggle{
+	width: 160px;
+	height: 18px;
+	display: block;
+	background: #ffffff;
+	padding: 8px 0px 0 40px;
+	margin-left: 790px;
+	border: #DDD 1px solid;
+	background-image: url('../img/chat.png');
+	background-position: 10px 0px;
+	background-repeat: no-repeat;
+    font-family         : 'source_sans_pro_regular';
+    font-size           : 12px;
+    line-height         : 12px;
+	text-decoration: none;
+	color: #656565;
+	position: fixed;
+	bottom: 0;
+}
+
+#chat a.chat-list-toggle .closed{
+	width: 10px;
+	height: 10px;
+	float: right;
+	margin-right: 10px;
+	display: inline-block;
+	background-image: url('../img/chat.png');
+	background-repeat: no-repeat;
+	background-position: -6px -78px;
+}
+
+#chat a.chat-list-toggle .opened{
+	width: 10px;
+	height: 10px;
+	float: right;
+	margin-right: 10px;
+	display: inline-block;
+	background-image: url('../img/chat.png');
+	background-repeat: no-repeat;
+	background-position: -6px -90px;
+}
+
+/* @TODO: Implement a better scrollbar for small screens **/
+#chat .chat-list{
+	width: 200px;
+	overflow: hidden;
+	background: #ffffff;
+	margin-left: 790px;
+	border: #DDD 1px solid;
+	position: fixed;
+	bottom: 0;
+}
+
+#chat .chat-list a{
+	display: block;
+	padding: 5px 10px 5px 20px;
+    font-family         : 'source_sans_pro_regular';
+    font-size           : 12px;
+    line-height         : 12px;
+	text-decoration: none;
+	color: #656565;
+}
+
+#chat .chat-list a:hover{
+	background: #ededed;
+}
+
+#chat .chat-list a.status-online{
+	background-image: url('../img/chat.png');
+	background-position: 0px -22px;
+	background-repeat: no-repeat;
+}
+
+#chat .chat-list a.status-away{
+	background-image: url('../img/chat.png');
+	background-position: 0px -40px;
+	background-repeat: no-repeat;
+}
+
+#chat .chat-list a.status-offline{
+	background-image: url('../img/chat.png');
+	background-position: 0px -57px;
+	background-repeat: no-repeat;
+}
+
+#chat .chat-list fieldset{
+	border-top: 1px solid #DBDBDB;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+#chat .chat-list fieldset legend{
+	padding: 5px 10px;
+    font-family         : 'source_sans_pro_regular';
+    font-size           : 12px;
+    line-height         : 12px;
+	color: #cccccc;
+}

@@ -1,0 +1,206 @@
+.chat-windows {
+    float: right;
+    position: fixed;
+
+    bottom: 0px;
+    right: 30px;
+}
+
+.chat-window {
+    position: relative;
+    bottom: -191px;
+
+    float: right;
+    width: 250px;
+
+    margin: 0 10px 0 0;
+    background: white;
+
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+            box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+
+.chat-window.opened {
+    bottom: 0px;
+}
+
+.chat-window .close {
+    float: right;
+
+    display: block;
+    cursor: pointer;
+
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+
+    margin: 0;
+    padding: 8px 5px;
+
+    background-image: url('../img/app-chat-close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chat-window .clear {
+    float: right;
+
+    display: block;
+    cursor: pointer;
+
+    height: 12px;
+    line-height: 12px;
+
+    margin: 0 5px 0 0;
+    padding: 8px 5px;
+    
+    font-size: 10px;
+    color: #999999;
+}
+
+.chat-window .title {
+    cursor: pointer;
+
+    font-family: 'bold';
+    font-size: 12px;
+    line-height: 12px;
+
+    display: block;
+
+    margin: 0;
+    padding: 8px 6px;
+
+    color: #0099cc;
+    text-decoration: none;
+}
+
+.chat-window .title .status {
+    float: left;
+    margin: 0 1px;
+    padding: 6px 8px;
+
+    background-image: url('../img/app-chat-offline.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.chat-window .title .status.online {
+    background-image: url('../img/app-chat-online.png');
+}
+
+.chat-window .title.notify {
+    color: #ffffff;
+    background: #0099cc
+}
+
+.chat-window .content {
+    padding: 5px;
+
+    -webkit-box-shadow: 0 0px 3px rgba(0,0,0,.07);
+       -moz-box-shadow: 0 0px 3px rgba(0,0,0,.07);
+            box-shadow: 0 0px 3px rgba(0,0,0,.07);
+
+    border-top: 1px solid #0099cc;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    width: 240px;
+    height: 152px;
+}
+
+.chat-window .content .chat-message-line {
+    clear: both;
+    margin: 5px 0;
+    border-top: 1px dotted #f6f6f6;
+}
+
+.chat-window .content .chat-message-data {
+    float: left;
+    width: 70px;
+    font-family: 'bold';
+    font-size: 11px;
+}
+
+.chat-window .content .chat-message {
+    font-family: 'regular';
+    margin-left: 75px;
+}
+
+.chat-window textarea {
+    font-family: 'regular';
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #333333;
+
+    width: 240px;
+    height: 14px;
+
+    padding: 5px;
+
+    border: 0px;
+    border-top: 1px solid #0099cc;
+
+    overflow: hidden;
+}
+
+.chat-window.chat-users {
+    width: 200px;
+}
+
+.chat-window.chat-users .title {
+    cursor: pointer;
+    padding: 8px 13px 8px 31px;
+
+    background-image: url('../img/app-chat.png');
+    background-position: 12px 8px;
+    background-repeat: no-repeat;
+
+    color: #0099cc;
+}
+
+.chat-window.chat-users .content {
+    padding: 5px 0;
+    width: 200px;
+    height: 180px;
+}
+
+.chat-window.chat-users .content a {
+    cursor: pointer;
+
+    font-family: 'regular';
+    font-size: 12px;
+    line-height: 12px;
+
+    display: block;
+
+    margin: 0 1px;
+    padding: 5px 12px 5px 30px;
+
+    color: #333333;
+    text-decoration: none;
+
+    background-image: url('../img/app-chat-offline.png');
+    background-position: 12px 4px;
+    background-repeat: no-repeat;
+}
+
+.chat-window.chat-users .content a:hover {
+    color: #0099cc;
+    background-color: #eeeeee;
+    text-decoration: none;
+}
+
+.chat-window.chat-users .content a.online {
+    background-image: url('../img/app-chat-online.png');
+}
+
+.chat-window input {
+    display: none;
+}
+
+.chat-window.opened input {
+    display: block;
+}

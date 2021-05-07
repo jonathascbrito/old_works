@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'source_sans_pro_regular';
+    src: url('../font/sourcesanspro-regular.eot');
+    src: url('../font/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/sourcesanspro-regular.woff') format('woff'),
+         url('../font/sourcesanspro-regular.ttf') format('truetype'),
+         url('../font/sourcesanspro-regular.svg#source_sans_pro_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro_bold';
+    src: url('../font/sourcesanspro-bold.eot');
+    src: url('../font/sourcesanspro-bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/sourcesanspro-bold.woff') format('woff'),
+         url('../font/sourcesanspro-bold.ttf') format('truetype'),
+         url('../font/sourcesanspro-bold.svg#source_sans_pro_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
